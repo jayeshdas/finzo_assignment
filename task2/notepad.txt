@@ -1,0 +1,8 @@
+cd .\task2\
+
+*********create venv i.e 'apienv'*****
+python -m venv apienv
+
+.\apienv\Scripts\activate
+cd .\finzo_api\
+python .\manage.py runserver 0.0.0.0:3000

@@ -1,0 +1,7 @@
+cd .\task1\
+
+*********create venv i.e 'microenv'*****
+python -m venv microenv
+
+.\microenv\Scripts\activate
+python .\report.py
